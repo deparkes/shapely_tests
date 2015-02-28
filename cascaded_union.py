@@ -3,13 +3,15 @@
 Created on Wed Jan 28 21:17:48 2015
 
 @author: Duncan
+
+How to merge two polygons in python
 """
 from matplotlib import pyplot as plt
 from descartes import PolygonPatch
 from shapely.geometry import Polygon, LinearRing
 from shapely.ops import cascaded_union
 
-from figures import SIZE, BLUE, GRAY
+from figures import SIZE, BLUE
 
 fig = plt.figure(1, figsize=SIZE, dpi=90)
 
@@ -40,5 +42,5 @@ ax.set_ylim(*yrange)
 ax.set_yticks(range(*yrange) + [yrange[-1]])
 ax.set_aspect(1)
 
-pyplot.show()
+plt.show()
 
