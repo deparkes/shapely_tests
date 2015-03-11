@@ -17,7 +17,7 @@ from figures import SIZE, BLUE
 
 
 # define the two polygons to merge
-polygon1 = Polygon([(0, 0), (10, 3), (5, 0)])
+polygon1 = Polygon([ (10, 3), (0, 0), (5, 0)])
 polygon2 = Polygon([(0, 0), (3, 7), (3, 0)])
 polygons = [polygon1, polygon2]
 
